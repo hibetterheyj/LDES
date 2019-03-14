@@ -1,3 +1,11 @@
+**Slightly modified for rapid setup for Windows**
+
+References:
+
+- [cafeunder/OpenCVTemplate - github](cafeunder/OpenCVTemplate) download `.lib/.dll` files from this repo
+
+---
+
 # Robust Estimation of Similarity Transformation for Visual Object Tracking
 
 This is our implementation of the Large Displacement Estimation of Similarity transformation (LDES) tracker. The main idea is to extend the CF-based tracker with similarity transformation (including position, scale, and rotation) in an efficient way. It can be used as a scale estimator with only sampling once in each frame. The code should be easy to follow and reuse. The details can be found in our [AAAI-2019 paper](https://arxiv.org/abs/1712.05231).
@@ -12,7 +20,7 @@ month = {January},
 year = {2019}
 }
 ```
- 
+
 # Instruction
 #### To just demo
 * Modify the path in "demo.m" with your own setting. (optional)
